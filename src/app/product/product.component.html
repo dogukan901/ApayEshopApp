@@ -1,11 +1,11 @@
-<!-- <h3 *ngIf="products; else noProduct">{{title}}</h3> -->
+<app-category></app-category>
+<h3 *ngIf="products; else noProduct">{{title}}</h3>
 <div class="form-group">
-    <input type="email" class="form-control" id="productName" placeholder="Search from here..."
-        [(ngModel)]="filterText">
+    <input class="form-control" id="productName" placeholder="Search from here..." [(ngModel)]="filterText">
     <small *ngIf="filterText" class="form-text text-muted">Currently Searching For: <strong>{{filterText}}</strong>
     </small>
 </div>
-<div class="row ">
+<div class="row">
     <!--If there is no product to be listed than show below-->
     <ng-template #noProduct>
         <div class="alert alert-primary" role="alert"> Bu kategoride listelenecek ürün bulunamadı :( </div>

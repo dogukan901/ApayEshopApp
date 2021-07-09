@@ -19,7 +19,7 @@ export class ProductComponent implements OnInit {
   constructor(private alertifyService: AlertifyService, private productService: ProductService, private activatedRoute: ActivatedRoute) { }
   title = "PRODUCT LIST"
   filterText = ""
-  products: Product[] = [];
+  products: Product[];
   name = "Your products will be listed here"
 
 
