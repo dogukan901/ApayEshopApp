@@ -1,0 +1,22 @@
+<!-- <h3 *ngIf="products; else noProduct">{{title}}</h3> -->
+<div class="form-group">
+    <input type="email" class="form-control" id="productName" placeholder="Search from here..."
+        [(ngModel)]="filterText">
+    <small *ngIf="filterText" class="form-text text-muted">Currently Searching For: <strong>{{filterText}}</strong>
+    </small>
+</div>
+<div class="row ">
+    <!--If there is no product to be listed than show below-->
+    <ng-template #noProduct>
+        <div class="alert alert-primary" role="alert"> Bu kategoride listelenecek ürün bulunamadı :( </div>
+    </ng-template>
+    <!--******************-->
+    <div *ngFor="let product of products | productFilter:filterText " class="card productbox" style="width: 18rem;">
+        <img class="card-img-top h-100" [src]="product.imageUrl" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{product.name}} {{product.price | currency:'USD':true:"1.2-2"}}</h5>
+            <p class="card-text">{{product.description}}</p>
+            <a (click)="addToCart(product)" href="javascript:void(0);" class="btn btn-primary">Add To Cart</a>
+        </div>
+    </div>
+</div>
