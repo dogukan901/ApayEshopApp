@@ -1,21 +1,82 @@
 {
-"products":
-[
-  { "id": 1, "name": "Laptop","price": 2500, "categoryId": 2, "description": "hp elitebook 725 G3", "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/hp/thumb/112000_large.jpg" },
-  { "id": 2, "name": "Mouse","price": 500,"categoryId": 1, "description": "steelseries rival 100", "imageUrl": "https://cdn.akakce.com/steelseries/steelseries-rival-100-oyuncu-z.jpg" },
-  { "id": 3, "name": "Keyboard", "price": 700, "categoryId": 1, "description": "logitech k380", "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-69625477/mobile_786_587_png/LOGITECH-K380-Bluetooth-T%C3%BCrk%C3%A7e-Q-Klavye-Gri-920-007586" },
-  { "id": 4, "name": "Monitor", "price": 2000, "categoryId": 1, "description": "samsung odyssey g3", "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_81970081/mobile_786_587_png/SAMSUNG-ODYSSEY-G3-LF27G35TFWMXUF-27%22-144Hz-1ms-Full-HD-Freesync-Premium-Gaming-Monit%C3%B6r" },
-  { "id": 5, "name": "Coca Cola", "price": 5, "categoryId": 5, "description": "Coca Cola Carbonated Drink Coke 330 Ml", "imageUrl": "https://ayb.akinoncdn.com/products/2019/01/18/3544/5aa1ee14-1c83-4213-a62b-773c4785e187_size780x780_quality60_cropCenter.jpg" },
-  { "id": 6, "name": "Piano", "price": 3000, "categoryId": 4, "description": " 7’4” black Khun-Bösendorfer piano", "imageUrl": "https://www.thepiano.sg/sites/thepiano.sg/files/styles/content_section_image/public/thepiano_images/content_section/2016/09/21/kuhn-bosendorfer-piano.jpg?itok=Jk6KllGs" }
-
-],
-"categories":[
-{ "id": 1, "name": "Electronics"},
-{ "id": 2, "name": "Computer" },
-{ "id": 3, "name": "Communication" },
-{ "id": 4, "name": "Music" },
-{ "id": 5, "name": "Drink" }
-]
-
-
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 2,
+      "description": "hp elitebook 725 G3",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/hp/thumb/112000_large.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 500,
+      "categoryId": 1,
+      "description": "steelseries rival 100",
+      "imageUrl": "https://cdn.akakce.com/steelseries/steelseries-rival-100-oyuncu-z.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Keyboard",
+      "price": 700,
+      "categoryId": 1,
+      "description": "logitech k380",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-69625477/mobile_786_587_png/LOGITECH-K380-Bluetooth-T%C3%BCrk%C3%A7e-Q-Klavye-Gri-920-007586"
+    },
+    {
+      "id": 4,
+      "name": "Monitor",
+      "price": 2000,
+      "categoryId": 1,
+      "description": "samsung odyssey g3",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_81970081/mobile_786_587_png/SAMSUNG-ODYSSEY-G3-LF27G35TFWMXUF-27%22-144Hz-1ms-Full-HD-Freesync-Premium-Gaming-Monit%C3%B6r"
+    },
+    {
+      "id": 5,
+      "name": "Coca Cola",
+      "price": 5,
+      "categoryId": 5,
+      "description": "Coca Cola Carbonated Drink Coke 330 Ml",
+      "imageUrl": "https://ayb.akinoncdn.com/products/2019/01/18/3544/5aa1ee14-1c83-4213-a62b-773c4785e187_size780x780_quality60_cropCenter.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Piano",
+      "price": 3000,
+      "categoryId": 4,
+      "description": " 7’4” black Khun-Bösendorfer piano",
+      "imageUrl": "https://www.thepiano.sg/sites/thepiano.sg/files/styles/content_section_image/public/thepiano_images/content_section/2016/09/21/kuhn-bosendorfer-piano.jpg?itok=Jk6KllGs"
+    },
+    {
+      "categoryId": "1",
+      "name": "Xiaomi",
+      "imageUrl": "https://www.incehesap.com/resim/urun/202006/5ee8ea3dd87123.15869130_khnlpgeqfojmi_500.jpg",
+      "description": "Xiaomi Redmi Note 9 Pro 128GB + 6GB RAM, 6.67\" FHD Tropical Green",
+      "price": "246",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Computer"
+    },
+    {
+      "id": 3,
+      "name": "Communication"
+    },
+    {
+      "id": 4,
+      "name": "Music"
+    },
+    {
+      "id": 5,
+      "name": "Drink"
+    }
+  ]
 }
