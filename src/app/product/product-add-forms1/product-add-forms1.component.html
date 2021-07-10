@@ -1,4 +1,4 @@
-<h3>Add New Product</h3>
+<h3>Add New Product(Classic)</h3>
 <form #productAddForm="ngForm" (ngSubmit)="add(productAddForm)">
     <div class="form-group form-group-box">
         <input type="text" placeholder="Product name..." #name="ngModel" [(ngModel)]="model.name" class="form-control"
@@ -11,7 +11,7 @@
         <div *ngIf="description.invalid&&description.dirty" class="alert alert-danger">Description Is Required</div>
     </div>
     <div class="form-group form-group-box">
-        <input type="text" placeholder="Product Image..." #imageUrl="ngModel" [(ngModel)]="model.imageUrl"
+        <input type="text" placeholder="Product Image Url..." #imageUrl="ngModel" [(ngModel)]="model.imageUrl"
             class="form-control" name="imageUrl" id="imageUrl" required>
         <div *ngIf="imageUrl.invalid&&imageUrl.dirty" class="alert alert-danger">ImageUrl Is Required</div>
     </div>
