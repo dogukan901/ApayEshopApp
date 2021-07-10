@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Fake Json server(Typicode)
+In order to use request resources: Open a command prompt, change directory to the path of db folder then type `json-server --watch shop.json`
