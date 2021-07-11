@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "name": "Coca Cola",
+      "name": "Cola",
       "price": 5,
       "categoryId": 5,
       "description": "Coca Cola Carbonated Drink Coke 330 Ml",
@@ -49,12 +49,20 @@
       "imageUrl": "https://www.thepiano.sg/sites/thepiano.sg/files/styles/content_section_image/public/thepiano_images/content_section/2016/09/21/kuhn-bosendorfer-piano.jpg?itok=Jk6KllGs"
     },
     {
-      "categoryId": "1",
-      "name": "Xiaomi",
+      "categoryId": 1,
+      "name": "Phone",
       "imageUrl": "https://www.incehesap.com/resim/urun/202006/5ee8ea3dd87123.15869130_khnlpgeqfojmi_500.jpg",
       "description": "Xiaomi Redmi Note 9 Pro 128GB + 6GB RAM, 6.67\" FHD Tropical Green",
-      "price": "246",
+      "price": 246,
       "id": 7
+    },
+    {
+      "name": "Buzdolabı",
+      "description": "Siemens KG76NAI32N A++ 578 Lt Kombi Tipi Buzdolabı İnox",
+      "imageUrl": "https://cdn.cimri.io/image/1000x1000/siemenskgnainaltkombitipibuzdolabnox_389506844.jpg",
+      "price": "9321",
+      "categoryId": "1",
+      "id": 8
     }
   ],
   "categories": [

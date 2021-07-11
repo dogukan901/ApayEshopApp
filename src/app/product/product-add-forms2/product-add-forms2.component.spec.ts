@@ -6,11 +6,14 @@ describe('ProductAddForms2Component', () => {
   let component: ProductAddForms2Component;
   let fixture: ComponentFixture<ProductAddForms2Component>;
 
+
+
+
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProductAddForms2Component ]
+      declarations: [ProductAddForms2Component]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

@@ -16,7 +16,7 @@
         <div *ngIf="imageUrl.invalid&&imageUrl.dirty" class="alert alert-danger">ImageUrl Is Required</div>
     </div>
     <div class="form-group form-group-box">
-        <input type="text" placeholder="Product Price..." #price="ngModel" [(ngModel)]="model.price"
+        <input type="number" placeholder="Product Price..." #price="ngModel" [(ngModel)]="model.price"
             class="form-control" name="price" id="price" required>
         <div *ngIf="price.invalid&&price.dirty" class="alert alert-danger">Price Is Required</div>
     </div>
