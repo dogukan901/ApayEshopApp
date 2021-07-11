@@ -1,5 +1,5 @@
 <app-category></app-category>
-<h3 *ngIf="products; else noProduct">{{title}}</h3>
+<h3 class="text-white" *ngIf="products; else noProduct">{{title}}</h3>
 <div class="form-group">
     <input class="form-control" id="productName" placeholder="Search from here..." [(ngModel)]="filterText">
     <small *ngIf="filterText" class="form-text text-muted">Currently Searching For: <strong>{{filterText}}</strong>
