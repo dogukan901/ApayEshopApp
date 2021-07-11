@@ -3,6 +3,7 @@ import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http
 import { Product } from '../product/product';
 import { Observable, throwError } from 'rxjs';
 import { tap, catchError } from 'rxjs/operators'
+import { ProductFilterPipe } from '../product/product-filter.pipe';
 
 @Injectable()
 export class ProductService {
@@ -40,6 +41,18 @@ export class ProductService {
     }
     return throwError(errorMessage);
   }
+
+  // checkSearchedProducts(filterText: ProductFilterPipe, products: Product[]) {
+  //   filterText.transform();
+  //   products.forEach(product => {
+  //     if (product.name.toLocaleLowerCase() == filterText.transform()) {
+
+  //     }
+  //   })
+  //   if (filterText == products.name.toLocaleLowerCase() || filterText == product.name) {
+
+  //   }
+  // }
 
 
 }

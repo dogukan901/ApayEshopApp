@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { AccountService } from './services/account.service';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +8,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  constructor(private accountService: AccountService, private router: Router) {
+
+  }
+
   title = 'intro';
   firstName = 'Dogukan';
+
+  isLoggedIn() {
+
+    return this.accountService.isLoggedIn();
+  }
+
+  logOut() {
+
+    this.accountService.logOut();
+  }
 
 }

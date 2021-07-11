@@ -25,7 +25,6 @@ export class ProductComponent implements OnInit {
 
 
   ngOnInit(): void {
-
     this.activatedRoute.params.subscribe(params => {
       this.productService.getProducts(params["categoryId"]).subscribe(data => {
         this.products = data;
@@ -40,5 +39,12 @@ export class ProductComponent implements OnInit {
 
     this.alertifyService.success(`${product.name} Added To Cart`)
   }
+
+  // searchforProduct() {
+  //   return this.products.forEach(product => {
+  //     let isEqualSearch = product.name.toLocaleLowerCase() == this.filterText || product.name == this.filterText ? true : false;
+
+  //   })
+  // }
 
 }
