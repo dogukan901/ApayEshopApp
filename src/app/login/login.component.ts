@@ -21,6 +21,7 @@ export class LoginComponent implements OnInit {
     // if (this.accountService.isLoggedIn()) {
     //   this.router.navigate(['products']);
     // }
+
   }
   login(form: NgForm) {
     this.accountService.login(this.model);
